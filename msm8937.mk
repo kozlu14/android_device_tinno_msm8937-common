@@ -152,8 +152,7 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
     camera.msm8937 \
     libcamshim \
-    libui_shim \
-    Snap
+    libui_shim 
 
 # camera dependencies (libgui/libfui vndk v31)
 PRODUCT_PACKAGES += \
@@ -536,3 +535,7 @@ PRODUCT_COPY_FILES += \
 # Signapk
 PRODUCT_HOST_PACKAGES += \
     signapk
+    
+    # GCam Go
+PRODUCT_PACKAGES += \
+    GCam
