@@ -531,11 +531,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_cfg.ini
+    
+    # GCam Go
+PRODUCT_PACKAGES += \
+    GCam
 
 # Signapk
 PRODUCT_HOST_PACKAGES += \
     signapk
     
-    # GCam Go
-PRODUCT_PACKAGES += \
-    GCam
+
